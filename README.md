@@ -1,8 +1,8 @@
 # Support-Vector-Machine-SVM-for-Predicting-Stock-Market-Monthly-Trend
 Applying SVM to the Financial Markets to uncover key insights for Investment
 
-The stock market data for S&P500 was extracted from Yahoo Finance from Jan 1, 2012 to 30 June, 2018. The raw data consisted of Open, High, Low and Close Prices and Volume. 
-
+The stock market data for S&P500 was extracted from Yahoo Finance from Jan 1, 2012 to 30 June, 2018. The raw data consisted of Open, High, Low and Close Prices and Volume. It was converted to Monthly data based on every month end date.
+ 
 Data Processing: 
 4 Distinct Technical Indicators were genenerated from the price data using the quantmod package. The change in value of the each indicator with respect to the previous period was then calculated.
 
